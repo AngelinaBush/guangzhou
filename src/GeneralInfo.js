@@ -22,7 +22,7 @@ function GeneralInfo() {
                         <div className="general-info-content" key={id}>
                             <h2>{title}</h2>
                             <p>{showText ? description : description.substring(0,400) }
-                            <button className="btnShow" onClick={() => showTextClick(element)}>{showText ? "Show less" : "Show more" + "..."}</button>
+                            <button className="btnShow" onClick={() => showTextClick(element)}>{showText ? "Show less" : "Show more..."}</button>
                             </p>
                         </div>
                 )
