@@ -4,7 +4,7 @@ function FoodGeneral({foods}) {
     return (
         <div className="foodGeneral-container">
            {foods.map(food => {
-            const {id, title, description, searchTerm, image} = food;
+            const {id, title, description, image} = food;
 
             return (
                 <div key={id} className="foodGeneral-container-two">

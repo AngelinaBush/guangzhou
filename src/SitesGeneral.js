@@ -5,7 +5,7 @@ import RightArrow from './RightArrow.png'
 function SitesGeneral({data, title, description}) {
     
     const [site, setSite] = useState(0);
-    const {id, image} = data[site]
+    const {image} = data[site]
 
     const Next = () => {
         setSite((site => {

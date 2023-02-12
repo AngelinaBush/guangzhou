@@ -4,7 +4,7 @@ import { dataOne } from "./data";
 function GeneralInfo() {
 
 
-    const [info, setInfo] = useState(dataOne);
+    const [info] = useState(dataOne);
     const [showMore, setShowMore] = useState(false);
 
     const showTextClick = (element) => {
